@@ -25,8 +25,6 @@ def photo_stats(root_dir, file_formats):
 				for tag in tags.keys():
 
 					if tag not in ('JPEGThumbnail', 'TIFFThumbnail', 'Filename', 'EXIF MakerNote'):
-						print(tag)
-						print(tags[tag])
 						if tag in result_dict.keys():
 
 							if str(tags[tag]) in result_dict[tag].keys():
