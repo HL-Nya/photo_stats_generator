@@ -52,10 +52,9 @@ def photo_stats(root_dir, file_formats):
 
 
 if __name__ == '__main__':
+	# add photo format you want to scan
 	file_formats = [".ARW", ".JPG", ".PNG", ".jpg", ".png"]
+	# replace your photo dir here
 	root_dir = "E:\\photos\\"
-
-	# file_formats = [".ARW"]
-	# root_dir = "E:\\photos\\A7 MK II\\2015年6月11日  星期四"
 
 	photo_stats(root_dir, file_formats)
